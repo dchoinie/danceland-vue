@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Footer</h1>
+        <h1 class="footer fixed-bottom">Footer</h1>
     </div>
 </template>
 
@@ -11,5 +11,9 @@
 </script>
 
 <style scoped>
-
+    .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+    }
 </style>
