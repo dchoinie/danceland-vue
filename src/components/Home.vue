@@ -4,7 +4,7 @@
             <div class="row center-align">
                 <div class="col s12">
                     <h2 class="title red-text text-darken-4 animated slideInLeft">Danceland</h2>
-                    <h4 class="subtitle grey-text text-darken-3 animated slideInRight">The History Of A Midwest Ballroom</h4>
+                    <h4 class="subtitle grey-text text-darken-3 animated slideInRight"><i class="small material-icons">music_note</i> The History Of A Midwest Ballroom <i class="small material-icons">music_note</i></h4>
                 </div>
             </div>
             <div class="container mt-3">
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div id="years">
-            <div class="years-title center-align">
+            <div class="years-title center-align grey-text text-darken-3">
                 <h2>Browse By Year</h2>
                 <p class="mt-2">Search Through The Danceland Archives</p>
             </div>
@@ -82,8 +82,11 @@
                 </div>
             </div>
         </div>
-        <div id="about">
-            
+        <div id="about" class="pt-4">
+            <div class="about-title center-align grey-text text-darken-3">
+                <h2 class="pb-4">About Danceland</h2>
+            </div>
+            <img src="../assets/front.jpg" alt="front" class="responsive-img" id="frontImg">
         </div>
     </div>
         
@@ -115,13 +118,23 @@
     }
     #years {
         background-image: linear-gradient(to bottom right, #bdbdbd, #fafafa);
-        height: 100vh;
+        /* height: 100vh; */
     }
-    #years h2 {
+    #years h2, #about h2 {
         margin: 0;
     }
     .col5 {
         width: 20%;
+    }
+    #about {
+        background-image: linear-gradient(to top right, #bdbdbd, #fafafa);
+    }
+    #frontImg {
+        display: block;
+        width: 30%;
+        margin: auto;
+        border-radius: 0.5rem;
+        box-shadow: 2px 2px 15px black;
     }
     @media screen and (min-width: 1200px) {
         #home {
