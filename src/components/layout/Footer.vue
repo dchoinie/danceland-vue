@@ -1,28 +1,27 @@
 <template>
-    <footer class="footer text-center">
-        <div class="container-fluid footer1 py-3">
+    <footer class="page-footer grey darken-3">
+        <div class="container">
             <div class="row">
-                <div class="col">
-                    <h5>Footer Content</h5>
-                    <p>You can use rows and columns here to organize your footer content.</p>
+                <div class="col l6 s12 center-align">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
                 </div>
-                <div class="col">
-                    <h5>Links</h5>
+                <div class="col l4 offset-l2 s12 center-align">
+                    <h5 class="white-text">Links</h5>
                     <ul>
-                        <li>Link 1</li>
-                        <li>Link 2</li>
-                        <li>Link 3</li>
-                        <li>Link 4</li>
-                        <li>Link 5</li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="footer2">
-            <div class="container-fluid py-3">
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">
                 © 2019 Steve Wilson
             </div>
-          </div>
+        </div>
     </footer>
 </template>
 
@@ -33,16 +32,5 @@
 </script>
 
 <style scoped>
-    .footer1 {
-        background-color: #4b545c;
-        color: #fff;
-    }
-    .footer2 {
-        background-color: #343a40;
-        color: #fff;
-    }
     
-    ul {
-        list-style-type: none;
-    }
 </style>

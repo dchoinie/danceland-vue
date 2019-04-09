@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>1955</h1>
+        <h1>1964</h1>
         <div class="container">
             <ul class="artist-group text-center">
                 <li v-for="artist in artists" v-bind:key="artist.id" class="artist-group-item">
