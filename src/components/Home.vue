@@ -10,7 +10,7 @@
             <div class="container mt-3">
                 <div class="row">
                     <div class="col m6">
-                        <p>Welcome to the website that is dedicated to preserving the history of Danceland Ballroom in Cedar Rapids, Iowa.  You can view the history from the grand opening in 1929 to it’s razing in 1968 (urban renewal). The array of top acts that graced the Danceland stage through the years is impressive to say the least.</p><br />
+                        <p><span style="color: #b71c1c;">Welcome</span> to the website that is dedicated to preserving the history of Danceland Ballroom in Cedar Rapids, Iowa.  You can view the history from the grand opening in 1929 to it’s razing in 1968 (urban renewal). The array of top acts that graced the Danceland stage through the years is impressive to say the least.</p><br />
                         <p>The “Big Band” years saw Duke Ellington, Glenn Miller, Count Basie, Tommy Dorsey with Frank Sinatra, Louis Armstrong, Woody Herman, Gene Krupa, Les Brown with Doris Day, Lawrence Welk, Sammy Kaye, Eddy Howard and Stan Kenton all stop by.</p><br />
                     </div>
                     <div class="col m6">
@@ -82,11 +82,21 @@
                 </div>
             </div>
         </div>
-        <div id="about" class="pt-4">
+        <div id="about" class="pt-4 pb-4">
             <div class="about-title center-align grey-text text-darken-3">
                 <h2 class="pb-4">About Danceland</h2>
             </div>
             <img src="../assets/front.jpg" alt="front" class="responsive-img" id="frontImg">
+            <div class="container mt-3">
+                <div class="row">
+                <div class="col s6">
+                    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat.</p>
+                </div>
+                <div class="col s6">
+                    <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat.</p>
+                </div>
+            </div>
+            </div>
         </div>
     </div>
         
